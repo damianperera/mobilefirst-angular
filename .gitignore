@@ -54,3 +54,6 @@ bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
+
+# Browserify
+app/bundle.js
