@@ -1,0 +1,38 @@
+{
+  "name": "mobilefirst-angular",
+  "authors": [
+    "Damian Perera <damian@perera.io>"
+  ],
+  "description": "AngularJS Boilerplate for IBM MobileFirst",
+  "main": "",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "boilerplate",
+    "ibm",
+    "mobilefirst"
+  ],
+  "license": "MIT",
+  "homepage": "https://perera.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.12",
+    "angular-animate": "1.4.12",
+    "angular-messages": "1.4.12",
+    "angular-mocks": "1.4.12",
+    "angular-route": "1.4.12",
+    "angular-sanitize": "1.4.12",
+    "angular-touch": "1.4.12",
+    "angular-resource": "1.4.12",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "jasmine-core": "jasmine#^2.5.2"
+  }
+}
