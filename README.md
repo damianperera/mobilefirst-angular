@@ -1,5 +1,5 @@
 # mobilefirst-angular
-Optimized for IBM MobileFirst 7.0 Hybrid Application Development - view the [live preview](https://damianperera.github.com/mobilefirst-angular/) designed for the iPad Pro
+Optimized for IBM MobileFirst 7.0 Hybrid Application Development - view the [live preview](https://damianperera.github.io/mobilefirst-angular/) designed for the iPad Pro
 
 ## Features
 * Simple File & Folder Structure
