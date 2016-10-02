@@ -5,7 +5,6 @@ logs
 npm-debug.log*
 
 # Tests
-test
 tests
 
 # Runtime data
