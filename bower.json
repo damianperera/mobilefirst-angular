@@ -30,7 +30,8 @@
     "angular-sanitize": "1.4.12",
     "angular-touch": "1.4.12",
     "angular-resource": "1.4.12",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.6.3"
   },
   "devDependencies": {
     "jasmine-core": "jasmine#^2.5.2"
