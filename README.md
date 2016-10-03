@@ -43,7 +43,7 @@ This boilerplate uses Jasmine and Karma to run tests, use the following command 
 ***
 ## Project Structure
 
-|-- angular-mobilefirst    
+|-- mobilefirst-angular    
 &nbsp;&nbsp;&nbsp;&nbsp;|-- .gitignore  
 &nbsp;&nbsp;&nbsp;&nbsp;|-- LICENSE  
 &nbsp;&nbsp;&nbsp;&nbsp;|-- README.md  
