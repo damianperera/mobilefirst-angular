@@ -1,8 +1,7 @@
 {
   "name": "mobilefirst-angular",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "AngularJS Boilerplate for IBM MobileFirst",
-  "main": "index.js",
   "directories": {
     "doc": "docs",
     "test": "test"
@@ -19,7 +18,7 @@
     "phantomjs-prebuilt": "^2.1.12"
   },
   "scripts": {
-  	"postinstall": "npm install -g bower && bower install -c",
+  	"postinstall": "bower install && ./install.sh",
     "test": "karma start test/karma.conf.js"
   },
   "repository": {
@@ -32,7 +31,7 @@
     "mobilefirst",
     "boilerplate"
   ],
-  "author": "Damian Perera <mail@damianperera.com> (http://damianperera.com)",
+  "author": "Damian Perera <damian@perera.io> (https://perera.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/damianperera/mobilefirst-angular/issues"

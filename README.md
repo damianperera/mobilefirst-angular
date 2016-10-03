@@ -23,6 +23,10 @@ Optimized for IBM MobileFirst 7.0 Hybrid Application Development - view the [liv
 ## Download
 Cloning this git repository will make the entire project structure available on your development machine, including the `package.json` and `bower.json` files which are needed for the setup.
 
+`npm install mobilefirst-angular`
+
+or
+
 `git clone https://github.com/damianperera/mobilefirst-angular.git`
 
 ## Setup
