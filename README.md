@@ -48,7 +48,8 @@ This boilerplate uses Jasmine and Karma to run tests, use the following command 
 &nbsp;&nbsp;&nbsp;&nbsp;|-- LICENSE  
 &nbsp;&nbsp;&nbsp;&nbsp;|-- README.md  
 &nbsp;&nbsp;&nbsp;&nbsp;|-- bower.json  
-&nbsp;&nbsp;&nbsp;&nbsp;|-- package.json  
+&nbsp;&nbsp;&nbsp;&nbsp;|-- package.json
+&nbsp;&nbsp;&nbsp;&nbsp;|-- install.sh
 &nbsp;&nbsp;&nbsp;&nbsp;|-- app  
 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- main.js  
 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- controllers  
