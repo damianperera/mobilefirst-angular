@@ -26,7 +26,7 @@ Installing this package from the official npm repository will create the project
 `npm install mobilefirst-angular`
 
 ## Setup
-Configure the project to work on IBM Worklight 7.0 inside a _hybrid_ application environment.
+Configures the project to work on IBM Worklight 7.0 inside a _hybrid_ application environment.
 
 1. Copy the project into the `apps/<hybrid-appname>/common/` inside your IBM Worklight 7.0 Project.
 
