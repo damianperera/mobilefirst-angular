@@ -21,18 +21,20 @@ Optimized for IBM MobileFirst 7.0 Hybrid Application Development - view the [liv
 * jQuery
 
 ## Download
-Cloning this git repository will make the entire project structure available on your development machine, including the `package.json` and `bower.json` files which are needed for the setup.
+Installing this package from the official npm repository will create the project structure and install the necessary dependencies.
 
 `npm install mobilefirst-angular`
 
-or
-
-`git clone https://github.com/damianperera/mobilefirst-angular.git`
-
 ## Setup
-This will install all the npm and bower dependencies. In case bower is not installed in your development machine, this command will also install bower globally for you.
+Configure the project to work on IBM Worklight 7.0 inside a `hybrid` application environment.
 
-`npm install`
+1. Copy the project into the apps/<hybrid-appname>/common/ inside your IBM Worklight 7.0 Project.
+
+2. Reference the IBM Worklight Javascript scripts in the working `index.html` file.
+
+3. Insert `<script>window.$ = window.jQuery = WLJQ;</script>` in the `<head>` section of your working `index.html` file.
+
+4. Run `mfp bd && mfp preview` in the apps/<hybrid-appname>/ folder of your project.
 
 ## Test
 This boilerplate uses Jasmine and Karma to run tests, use the following command to start the Karma Test Server.
@@ -80,8 +82,8 @@ This boilerplate uses Jasmine and Karma to run tests, use the following command 
 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- index.html  
 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- karma.conf.js  
 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- spec  
-&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- test.js  
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- test.js  
 &nbsp;&nbsp;&nbsp;&nbsp;|-- views  
 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- index.html  
 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- templates  
-&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- template.html  
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- template.html  
