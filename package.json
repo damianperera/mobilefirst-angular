@@ -1,6 +1,6 @@
 {
   "name": "mobilefirst-angular",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AngularJS Boilerplate for IBM MobileFirst",
   "directories": {
     "doc": "docs",
